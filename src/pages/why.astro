@@ -1,0 +1,255 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Rept from "../components/Rept.astro";
+import Bluelist from "../components/Bluelist.astro";
+---
+
+<Layout title="The Why Files">
+  <Header client:only="react" />
+
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tr from-purple-900 to-sky-700 h-96 w-full relative rounded-xl"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          The Why Files
+        </h1>
+
+        <h2 class="text-slate-100 sm:text-2xl md:text-3xl mt-5 text-center">
+          Secret 10-Year Mission to an Alien Planet 40 Light Years Away |
+          Project Serpo
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Valiant Thor: A UFO, the Pentagon and a 3-year Mission to Save the World -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Bluelist />
+      <h2 id="thor">
+        <p class="mb-4 text-base text-blue-500">
+          Valiant Thor: A UFO, the Pentagon and a 3-year Mission to Save the
+          World
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/glehaMc-w98"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./goesdeep"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war"
+            ><span
+              class="text-red-700 font-bold hover:text-2xl hover:text-green-900"
+              >The Invisible War</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=glehaMc-w98"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Valiant Thor: A UFO, the Pentagon and a 3-year Mission to Save
+              the World</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-gray-500">...</p>
+      </div>
+    </div>
+    <!-- Valiant Thor: A UFO, the Pentagon and a 3-year Mission to Save the World -->
+
+    <!-- Secret 10-Year Mission to an Alien Planet 40 Light Years Away | Project Serpo -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="serpo">
+        <p class="mb-4 text-base text-blue-500">
+          Secret 10-Year Mission to an Alien Planet 40 Light Years Away |
+          Project Serpo
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/50Y5r9HeR2w"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./goesdeep"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war"
+            ><span
+              class="text-red-700 font-bold hover:text-2xl hover:text-green-900"
+              >The Invisible War</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=50Y5r9HeR2w"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Secret 10-Year Mission to an Alien Planet 40 Light Years Away |
+              Project Serpo</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-gray-500">...</p>
+      </div>
+    </div>
+    <!-- Secret 10-Year Mission to an Alien Planet 40 Light Years Away | Project Serpo -->
+
+    <!-- ALIEN WAR and The Horrors of Dulce Underground Base -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="dulce">
+        <p class="mb-4 text-base text-blue-500">
+          ALIEN WAR and The Horrors of Dulce Underground Base
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/Je3Qu-xMuxM"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./goesdeep"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war"
+            ><span
+              class="text-red-700 font-bold hover:text-2xl hover:text-green-900"
+              >The Invisible War</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=Je3Qu-xMuxM"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >ALIEN WAR and The Horrors of Dulce Underground Base</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=jQwmXVyN_d0"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Ancient Aliens: Reptile OVERLORDS Walk Among Us?!</span
+            >
+          </a>
+        </h5>
+        <Rept />
+        <p class="mb-4 text-base text-gray-500">...</p>
+      </div>
+    </div>
+    <!-- ALIEN WAR and The Horrors of Dulce Underground Base -->
+
+    <Footer client:only="react" />
+  </main>
+</Layout>

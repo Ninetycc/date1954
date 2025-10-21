@@ -1,0 +1,875 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Movies from "../components/Movies.astro";
+import Bluelist from "../components/Bluelist.astro";
+import Deception from "../components/Deception.astro";
+import Police from "../components/Police.astro";
+---
+
+<Layout title="Justinian Deception ">
+  <Header client:only="react" />
+
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tr from-sky-600 to-purple-700 h-96 w-full relative rounded-xl"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          Justinian Deception
+        </h1>
+        <h2 class="text-slate-100 sm:text-2xl md:text-3xl mt-5 text-center">
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- AN-OLDER-CODE -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Bluelist />
+
+      <h2 id="older">
+        <p class="mb-4 text-base text-blue-900">CAN-YOU-READ?</p>
+        <p class="mb-4 text-base text-blue-900">
+          AN-OLDER-CODE The Chicago Manual of Style, 17th ed. (2017) page 666.
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/FRhXsttKwK8"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=FRhXsttKwK8&t=2s"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-purple-900"
+              >AN-OLDER-CODE</span
+            >
+          </a>
+        </h5>
+        <Deception />
+        <h2 id="movies">
+          <Movies />
+        </h2>
+        <a href="./turner#turner">
+          <p class="text-left text-yellow-100 hover:text-blue-300">
+            Chris Turner talks about Richard Bruce
+          </p></a
+        >
+        <a href="./invisible-war#tenet2">
+          <p class="text-left text-yellow-100 hover:text-blue-300">
+            TENET Ending scene 4K.
+          </p></a
+        >
+        <a href="./monsters">
+          <p class="text-left text-yellow-100 hover:text-blue-300">
+            Monsters Inc
+          </p></a
+        >
+      </div>
+    </div>
+    <!-- AN-OLDER-CODE -->
+
+    <!-- AN-OLDER-CODE -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-blue-900">FOREIGN-MILITARY-OCCUPATION</p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://rumble.com/embed/vla1lg/?pub=166b2j"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://rumble.com/vnw7q6-foreign-military-occupation.html"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >FOREIGN-MILITARY-OCCUPATION</span
+            >
+          </a>
+        </h5>
+        <a href="./monsters">
+          <p class="text-left text-yellow-100 hover:text-blue-300">
+            Monsters Inc
+          </p></a
+        >
+      </div>
+    </div>
+    <!-- AN-OLDER-CODE -->
+
+    <!-- Card title 17A -->
+    <div
+      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+    >
+      The Chicago Manual of Style, 17th ed. (2017) page 666.<div
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/jwNfi94tGD0"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50"
+        >
+          <a href="./hyphen-glitch"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >Larger View</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=jwNfi94tGD0"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white font-glitch bg-red-700 text-2xl hover:text-3xl hover:bg-green-900"
+              >HYPHEN-GLITCH</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.booktopia.com.au/the-chicago-manual-of-style-17th-edition-the-university-of-chicago-press-editorial-staff/book/9780226287058.html"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >The Chicago Manual of Style, 17th Edition</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white text-left bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >The Chicago Manual of Style</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-left text-black">
+          The deception of the Marginal Text...
+        </p>
+        <p class="mb-4 text-base text-left text-black">
+          The written language of the margin of a document has no jurisdiction
+          with the language of the main body of text, its only those that can
+          detect the difference between main body text and marginal text that
+          may detect a document that may be set up to deceive you into falling
+          for the deception of converting you from the main body into the outer
+          fringes of life where you lose everything. Ro, is a fiction language
+          that appears within the margins of a document, it can be mistaken for
+          English by the grammatically untrained eye, leaving you with a false
+          impression of what a document may be saying... Life has become flat by
+          the legal world of paper, titles, deeds, contracts, licenses, you name
+          it, nothing seems to exist without some form of document, but are any
+          of them real?, it may be those that can see the fraud in the paper
+          that may be able to save themselves from such deceptions appearing
+          within the body of text in relation to such deeds, titles, bills,
+          licenses etc. No contract can exist in fraud, unless you "consent" but
+          if you can't see the fraud, you may be at a disadvantage to such a
+          satanic occult of the masters of the flat earth of paper ... Justinian
+          Deception...
+        </p>
+      </div>
+    </div>
+    <!-- Card title 17A -->
+
+    <!-- ROM-AND-ROHAN-TALK 4A -->
+    <div
+      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+    >
+      The Chicago Manual of Style, 17th ed. (2017) page 665-666.<div
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/YeplFLRja94"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50"
+        >
+          <a href="./talk"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >Larger View</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=YeplFLRja94"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >ROM-AND-ROHAN-TALK</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- ROM-AND-ROHAN-TALK 4A -->
+
+    <!-- DECEIVED-INTO-CONSENT 5A -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base font-glitch text-blue-900">
+        There is no such written English as: "Governor-General"
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/Tq-bYpsHbiI"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="font-glitch text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=Tq-bYpsHbiI&t=1s"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="font-glitch text-red-700 text-xl hover:text-2xl hover:text-green-900"
+              >DECEIVED-INTO-CONSENT</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- DECEIVED-INTO-CONSENT 5A -->
+
+    <!-- POLICE-ARE-NOT-GOVERNMENT -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="police">
+        <p class="mb-4 text-base text-blue-900">POLICE-ARE-NOT-GOVERNMENT</p>
+      </h2>
+
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/HaQ_DHYP0-A"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Police />
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+        </h5>
+        <p class="mb-4 text-base text-black">
+          The Dun & Bradstreet Corporation is<br /> an American company that provides
+          <strong>commercial data,</strong><br /> analytics, and insights for businesses.<br
+          />Headquarters: Jacksonville, Florida, United States<br /><a
+            href="https://www.dnb.com/"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-blue-400 hover:text-xl hover:text-green-900"
+              >www.dnb.com</span
+            ></a
+          >
+        </p>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.dnb.com/business-directory/company-profiles.nsw_police_force.cca0ad46691cd95253a34d47234a707b.html"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-blue-400 hover:text-xl hover:text-green-900"
+              >NSW POLICE FORCE</span
+            ></a
+          >
+        </h5>
+        <Deception />
+      </div>
+    </div>
+    <!-- POLICE-ARE-NOT-GOVERNMENT -->
+
+    <!-- Finance fear,competition -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="finance">
+        <p class="mb-4 text-base text-green-600">Finance fear,competition</p>
+      </h2>
+
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.bitchute.com/embed/pP7AWZh96O4m/"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Police />
+      </div>
+    </div>
+    <!-- Finance fear,competition -->
+
+    <!-- PROCLAMATION License To Be Killed -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="proclamation">
+        <p class="mb-4 text-base text-blue-900">
+          PROCLAMATION License To Be Killed
+        </p>
+      </h2>
+
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/fn7l0wjoAfc"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50"
+        >
+          <a href="./unidroit"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >Larger View</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=fn7l0wjoAfc"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-purple-900"
+              >PROCLAMATION License To Be Killed</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/@JustinianDeception"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-purple-900"
+              >Justinian Deception</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-black">
+          The Dun & Bradstreet Corporation is<br /> an American company that provides
+          <strong>commercial data,</strong><br /> analytics, and insights for businesses.<br
+          />Headquarters: Jacksonville, Florida, United States<br /><a
+            href="https://www.dnb.com/"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-black hover:text-xl hover:text-green-900"
+              >www.dnb.com</span
+            ></a
+          >
+        </p>
+        <p class="mb-4 text-base text-black">
+          <a
+            href="https://www.dnb.com/business-directory/company-profiles.nsw_police_force.cca0ad46691cd95253a34d47234a707b.html"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-black hover:text-xl hover:text-green-900"
+              >NSW POLICE FORCE</span
+            ></a
+          >
+        </p>
+        <p class="mb-4 text-base text-black">WHAT-IS-A-UNIDROIT @13:20</p>
+        <Deception />
+      </div>
+    </div>
+    <!-- PROCLAMATION License To Be Killed -->
+
+    <!-- HIDDEN FOREIGN MILITARY -->
+    <div
+      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+    >
+      HIDDEN FOREIGN MILITARY<div
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/lXq5Gw1550s"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=lXq5Gw1550s"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >HIDDEN FOREIGN MILITARY</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-left text-base text-black">
+          The Dun & Bradstreet Corporation is<br /> an American company that provides
+          <strong>commercial data,</strong><br /> analytics, and insights for businesses.<br
+          />Headquarters: Jacksonville, Florida, United States<br /><a
+            href="https://www.dnb.com/"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-black hover:text-xl hover:text-green-900"
+              >www.dnb.com</span
+            ></a
+          >
+        </p>
+        <p class="mb-4 text-left text-base text-black">
+          <a
+            href="https://www.dnb.com/business-directory/company-profiles.nsw_police_force.cca0ad46691cd95253a34d47234a707b.html"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="mb-4 text-base text-black hover:text-xl hover:text-green-900"
+              >NSW POLICE FORCE</span
+            ></a
+          >
+        </p>
+        <p class="mb-4 text-left text-base text-black">
+          Australian police are nothing more than foreign private mercenaries...
+        </p>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war#corporation"
+            ><span
+              class="text-blue-900 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+              >corporation</span
+            ></a
+          >
+        </h5>
+        <Police />
+      </div>
+    </div>
+    <!-- HIDDEN FOREIGN MILITARY -->
+
+    <!-- Card title 6A -->
+    <div
+      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+    >
+      ....
+      <div
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/Od4Er8CxL2M"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=Od4Er8CxL2M"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-white bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >DIGLOSSIA-LANGUAGE-OF-THE-SNAKE</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- Card title 6A -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-blue-900">THE-PERFECT-CRIME</p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/isx44nK-80Y"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=isx44nK-80Y"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >THE-PERFECT-CRIME</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- CORPORATE-BIRTH-CERTIFICATE -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-blue-900">CORPORATE-BIRTH-CERTIFICATE</p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/ZKZFQEq4now"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=ZKZFQEq4now"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >CORPORATE-BIRTH-CERTIFICATE</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- CORPORATE-BIRTH-CERTIFICATE -->
+
+    <!-- WHY-YOU-ARE-DEAD -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="dead">
+        <p class="mb-4 text-base text-blue-900">WHY-YOU-ARE-DEAD</p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/xfWTCl3eQEk"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./#police"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >---Go Back---</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=xfWTCl3eQEk"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 text-base hover:text-lg hover:text-green-900"
+              >WHY-YOU-ARE-DEAD</span
+            >
+          </a>
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <Deception />
+      </div>
+    </div>
+    <!-- WHY-YOU-ARE-DEAD -->
+
+    <!-- Card title 2 -->
+    <Footer client:only="react" />
+  </main>
+</Layout>

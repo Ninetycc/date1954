@@ -1,0 +1,141 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Fun from "../components/Fun.astro";
+
+import ABCB from "../components/ABCB.astro";
+import Finance from "../components/Finance.astro";
+---
+
+<Layout title="ABC Bullion">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tr from-yellow-500 to-orange-700 h-96 w-full relative rounded-xl"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          ABC Bullion
+        </h1>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          ABC Bullion - Studio 10 gets up close and personal with ABC Bullion
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- ABC Bullion - Studio 10 gets up close and personal with ABC Bullion -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Fun />
+      <h2 id="bullion">
+        <p class="mb-4 text-base text-gray-500">
+          ABC Bullion - Studio 10 gets up close and personal with ABC Bullion
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/dGtrwxyxflI"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <ABCB />
+        <Finance />
+      </div>
+    </div>
+    <!-- ABC Bullion - Studio 10 gets up close and personal with ABC Bullion -->
+
+    <!-- SILVER'S 44 YEAR CUP & HANDLE "NOW, I BELIEVE MID TO HIGH TRIPLE DIGITS ARE BAKED IN THE CAKE" -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="cup">
+        <p class="mb-4 text-base text-gray-500">
+          SILVER'S 44 YEAR CUP & HANDLE "NOW, I BELIEVE MID TO HIGH TRIPLE
+          DIGITS ARE BAKED IN THE CAKE"
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/p04Dx7J31vk"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <ABCB />
+        <Finance />
+      </div>
+    </div>
+    <!-- SILVER'S 44 YEAR CUP & HANDLE "NOW, I BELIEVE MID TO HIGH TRIPLE DIGITS ARE BAKED IN THE CAKE" -->
+
+    <!-- Bix Weir - The Good Guys Are In Control, The Truth Is Being Exposed For The World To See -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="weir">
+        <p class="mb-4 text-base text-gray-500">
+          Bix Weir - The Good Guys Are In Control, The Truth Is Being Exposed
+          For The World To See
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://rumble.com/embed/v50je5f/?pub=166b2j"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <ABCB />
+        <Finance />
+      </div>
+    </div>
+    <!-- Bix Weir - The Good Guys Are In Control, The Truth Is Being Exposed For The World To See -->
+
+    <!-- Card title 2 -->
+  </main>
+</Layout>
+<Footer client:only="react" />

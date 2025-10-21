@@ -1,0 +1,107 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+---
+
+<Layout title="About Page | Intro section with dropdown navigation.">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1 class="text-white text-6xl font-bold text-center">The GODS</h1>
+        <h2 class="text-slate-100 text-3xl mt-5 text-center">
+          The GODS Never Left Us
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto"
+    >
+      <div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+        <div>
+          <h1
+            class="text-almost-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+          >
+            About Page1
+          </h1>
+          <p class="py-5 lg:py-[4rem] lg:text-xl">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+      </div>
+      <div class="order-first lg:order-last">
+        <img class="lg:hidden mb-9" src="images/Med-Bed001.jpg" alt="Med-Bed" />
+        <img
+          class="hidden lg:block"
+          src="images/Med-Bed001.jpg"
+          alt="Med-Bed"
+        />
+      </div>
+    </div>
+
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+    >
+      <div
+        class="relative overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <img
+          class="mx-auto rounded-t-lg"
+          src="https://tecdn.b-cdn.net/img/new/standard/nature/186.jpg"
+          alt=""
+        />
+      </div>
+      <div class="p-6 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          Card title 1
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+    >
+      <div
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <img
+          class="mx-auto rounded-t-lg"
+          src="https://tecdn.b-cdn.net/img/new/standard/nature/186.jpg"
+          alt=""
+        />
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          Card title 2
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+  </main>
+</Layout>

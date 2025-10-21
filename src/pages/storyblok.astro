@@ -1,0 +1,1027 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+---
+
+<Layout title="Add a headless CMS to Astro in 5 minutes">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          storyblok
+        </h1>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          Add a headless CMS to Astro in 5 minutes
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Card title 1 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        Responsive Website with Navbar, Sidebar and Dropdown Menus | React,
+        Tailwind CSS, Astro JS Tutorial
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.youtube.com/embed/u5_3Ze3nHwQ"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=u5_3Ze3nHwQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Responsive Website with Navbar, Sidebar and Dropdown Menus |
+              React, Tailwind CSS, Astro JS Tutorial</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/gigo6000/astro-landing-page"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >https://github.com/gigo6000/astro-landing-page</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/add-a-headless-cms-to-astro-in-5-minutes"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Add a headless CMS to Astro in 5 minutes</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/render-storyblok-stories-dynamically-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Render Storyblok Stories Dynamically in Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/faq/setting-up-https-on-localhost-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Setting Up HTTPS on localhost in Astro</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/surjithctly/astro-navbar#readme"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Astro Headless Navigation Bar</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/littlesticks/astro-sanity#readme"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Astro + Sanity Integration</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm create astro@latest
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add cloudflare
+        </p>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add tailwindcss
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm install astro-navbar
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add astro-sanity
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          3:47
+        </p>
+      </div>
+    </div>
+    <!-- Card title 1 -->
+
+    <!-- Card title 1A -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        The Storyblok Astro Ultimate Tutorial
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.storyblok.com/tp/the-storyblok-astro-ultimate-tutorial"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/the-storyblok-astro-ultimate-tutorial"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >The Storyblok Astro Ultimate Tutorial</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=u5_3Ze3nHwQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Responsive Website with Navbar, Sidebar and Dropdown Menus |
+              React, Tailwind CSS, Astro JS Tutorial</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/gigo6000/astro-landing-page"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >https://github.com/gigo6000/astro-landing-page</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/add-a-headless-cms-to-astro-in-5-minutes"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Add a headless CMS to Astro in 5 minutes</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/render-storyblok-stories-dynamically-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Render Storyblok Stories Dynamically in Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/faq/setting-up-https-on-localhost-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Setting Up HTTPS on localhost in Astro</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm create astro@latest
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add cloudflare
+        </p>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add tailwindcss
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm install astro-navbar
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          3:47
+        </p>
+      </div>
+    </div>
+    <!-- Card title 1A -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        Add a headless CMS to Astro in 5 minutes
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.storyblok.com/tp/add-a-headless-cms-to-astro-in-5-minutes"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=u5_3Ze3nHwQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Responsive Website with Navbar, Sidebar and Dropdown Menus |
+              React, Tailwind CSS, Astro JS Tutorial</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/gigo6000/astro-landing-page"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >https://github.com/gigo6000/astro-landing-page</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/add-a-headless-cms-to-astro-in-5-minutes"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Add a headless CMS to Astro in 5 minutes</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/render-storyblok-stories-dynamically-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Render Storyblok Stories Dynamically in Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/faq/setting-up-https-on-localhost-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Setting Up HTTPS on localhost in Astro</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm create astro@latest
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add cloudflare
+        </p>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add tailwindcss
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm install @headlessui/react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          3:47
+        </p>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 3 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        Render Storyblok Stories Dynamically in Astro
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.storyblok.com/tp/render-storyblok-stories-dynamically-in-astro"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=u5_3Ze3nHwQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Responsive Website with Navbar, Sidebar and Dropdown Menus |
+              React, Tailwind CSS, Astro JS Tutorial</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/gigo6000/astro-landing-page"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >https://github.com/gigo6000/astro-landing-page</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/add-a-headless-cms-to-astro-in-5-minutes"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Add a headless CMS to Astro in 5 minutes</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/render-storyblok-stories-dynamically-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Render Storyblok Stories Dynamically in Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/faq/setting-up-https-on-localhost-in-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Setting Up HTTPS on localhost in Astro</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm create astro@latest
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add cloudflare
+        </p>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add tailwindcss
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm install @headlessui/react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          3:47
+        </p>
+      </div>
+    </div>
+    <!-- Card title 3 -->
+
+    <!-- Card title 3 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        Create Dynamic Menus in Storyblok and Astro
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.storyblok.com/tp/create-dynamic-menus-in-storyblok-and-astro"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/create-dynamic-menus-in-storyblok-and-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Create Dynamic Menus in Storyblok and Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/gigo6000/astro-landing-page"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >https://github.com/gigo6000/astro-landing-page</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/the-storyblok-astro-ultimate-tutorial"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >The Storyblok Astro Ultimate Tutorial</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/create-dynamic-menus-in-storyblok-and-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Create Dynamic Menus in Storyblok and Astro</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.storyblok.com/tp/create-dynamic-menus-in-storyblok-and-astro"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Create Dynamic Menus in Storyblok and Astro</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm create astro@latest
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add cloudflare
+        </p>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npx astro add tailwindcss
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          npm install @headlessui/react
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          3:47
+        </p>
+      </div>
+    </div>
+    <!-- Card title 3 -->
+
+    <!-- kontent.ai 3 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">
+        kontent-ai/Run the Vue sample app
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://kontent.ai/learn/tutorials/develop-apps/get-started/run-sample-app/?tech=javascript"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://kontent.ai/learn/tutorials/develop-apps/get-started/run-sample-app/?tech=javascript"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Run the Vue sample app</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/kontent-ai/sample-app-vue"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >kontent-ai/sample-app-vue</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- kontent.ai 3 -->
+
+    <!-- Astro + Sanity Integration 3 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">Astro + Sanity Integration</p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.youtube.com/embed/6aQ-vD2vRyY"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=iX-mTitP4aE"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Working with APIs in Astro is AMAZING!</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.sanity.io/plugins/astro-sanity"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Astro + Sanity Integration</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/@jaydanurwin"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Jaydan Urwin</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=6aQ-vD2vRyY"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Sanity Crash Course #1 - Setting Up a Sanity v3 & Astro 2.0
+              Project From Scratch</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/littlesticks/astro-sanity"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >github.com/littlesticks/astro-sanity</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/littlesticks/sanity-crash-course"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >sanity-crash-course</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- Astro + Sanity Integration 3 -->
+
+    <!-- Working with APIs in Astro is AMAZING! -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-600">Astro + Sanity Integration</p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+            src="https://www.youtube.com/embed/iX-mTitP4aE"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./tailwindcss"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=iX-mTitP4aE"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Working with APIs in Astro is AMAZING!</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.sanity.io/plugins/astro-sanity"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Astro + Sanity Integration</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/@jaydanurwin"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Jaydan Urwin</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=6aQ-vD2vRyY"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Sanity Crash Course #1 - Setting Up a Sanity v3 & Astro 2.0
+              Project From Scratch</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/littlesticks/astro-sanity"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >github.com/littlesticks/astro-sanity</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://github.com/littlesticks/sanity-crash-course"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-blue-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >sanity-crash-course</span
+            >
+          </a>
+        </h5>
+
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+      </div>
+    </div>
+    <!-- Working with APIs in Astro is AMAZING! -->
+  </main>
+</Layout>
+<Footer client:only="react" />

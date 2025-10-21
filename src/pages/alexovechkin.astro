@@ -1,0 +1,441 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Fun from "../components/Fun.astro";
+import Bears from "../components/Bears.astro";
+---
+
+<Layout title="Alexander Ovechkin.">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-purple-900 to-blue-700 h-96 w-full relative rounded-xl"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          Alexander Ovechkin
+        </h1>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          Former NHL Goalies Break Down Alex Ovechkin's Most Iconic Goals...
+          Scored On Them
+        </h2>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          Dean Moriarity's Insane POV Run from Québec City 😮 |Red Bull Crashed
+          Ice 2015
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Fun />
+      <h2 id="goals">
+        <p class="mb-4 text-base text-green-600">
+          Former NHL Goalies Break Down Alex Ovechkin's Most Iconic Goals...
+          Scored On Them
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/1h1Ufj7C54w"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="best">
+        <p class="mb-4 text-base text-blue-900">
+          Alex Ovechkin's best goal might be the greatest in NHL history | Best
+          Goal Ever ESPN @6:30
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/V7sxhQfW7hY"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/bNZ0rF1UR-8"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=bNZ0rF1UR-8"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >GOTTA SEE IT: Alexander Ovechkin Nets 802nd Goal To Stand Alone As
+            No. 2 All-Time Scorer</span
+          >
+        </a>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-blue-900">
+        Capitals Honour Alex Ovechkin For Passing Gordie Howe On All-Time Goal
+        List
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/MZbYbHEUKww"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=MZbYbHEUKww"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >Capitals Honour Alex Ovechkin For Passing Gordie Howe On All-Time
+            Goal List</span
+          >
+        </a>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/NBfvnWJVR7g"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=NBfvnWJVR7g"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >Rewatch All 50 of Alex Ovechkin's Goals This Season NHL</span
+          >
+        </a>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-blue-900">
+        Sydney Ice Dogs vs Sydney Bears | AIHL 19/08/2022
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/CU3G4VZYfEY"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+
+
+    <!-- Every hockey player MUST visit Finland - A day in Finland before the Save Pond Hockey Tournament -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="finland">
+        <p class="mb-4 text-base text-sky-500">Every hockey player MUST visit Finland - A day in Finland before the Save Pond Hockey Tournament</p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/-w5F5ayTKJg"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Every hockey player MUST visit Finland - A day in Finland before the Save Pond Hockey Tournament -->
+
+
+    <!-- Hockey Heaven. Some of the BEST outdoor rinks in Europe are in Finland -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="outdoor">
+        <p class="mb-4 text-base text-sky-500">Hockey Heaven. Some of the BEST outdoor rinks in Europe are in Finland</p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/D8a8n19S2Hg"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Hockey Heaven. Some of the BEST outdoor rinks in Europe are in Finland -->
+
+    <!-- Dean Moriarity's Insane POV Run from Québec City 😮 |Red Bull Crashed Ice 2015 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="dean">
+        <p class="mb-4 text-base text-pink-600">
+          Dean Moriarity's Insane POV Run from Québec City 😮 |Red Bull Crashed
+          Ice 2015
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/QniymEyE-lE"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Dean Moriarity's Insane POV Run from Québec City 😮 |Red Bull Crashed Ice 2015 -->
+
+    <!-- Hockey Players try Red Bull Crashed Ice Track for the first time WITHOUT Practice! -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="first">
+        <p class="mb-4 text-base text-pink-600">
+          Hockey Players try Red Bull Crashed Ice Track for the first time
+          WITHOUT Practice!
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/4HcKs_wEcGo"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Hockey Players try Red Bull Crashed Ice Track for the first time WITHOUT Practice! -->
+
+    <!-- Red Bull Crashed Ice 2008 Quebec -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+            <h2 id="quebec">
+        <p class="mb-4 text-base text-pink-600">Red Bull Crashed Ice 2008 Quebec</p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://rutube.ru/play/embed/815622c307ac71d51beabf6bec49e2c2/"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <Bears />
+      </div>
+    </div>
+    <!-- Red Bull Crashed Ice 2008 Quebec -->
+
+   
+
+    <!-- Card title 2 -->
+  </main>
+</Layout>
+<Footer client:only="react" />

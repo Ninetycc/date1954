@@ -1,0 +1,557 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Movies from "../components/Movies.astro";
+import Bluelist from "../components/Bluelist.astro";
+---
+
+<Layout title="The Matrix Reloaded">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tr from-green-700 to-green-900 h-96 w-full relative rounded-xl"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+      />
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          The Matrix Reloaded
+        </h1>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          The Matrix Reloaded - Highway Chase [HD]
+        </h2>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">
+          McLaren vs. Cyborg Motorbike Chase | Fast and Furious: Hobbs & Shaw |
+          All Action
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Bluelist />
+      <h2 id="reloaded">
+        <p class="mb-4 text-base text-green-900">
+          The Matrix Reloaded - Highway Chase [HD]
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/WBCQ0_ZNJf8"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=WBCQ0_ZNJf8"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >The Matrix Reloaded - Highway Chase [HD]</span
+          >
+        </a>
+        <Movies />
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-900">
+        The Chase: Agents vs Morpheus | The Matrix Reloaded [Open Matte]
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/Q8IntKW4sKA"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=Q8IntKW4sKA"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >The Chase: Agents vs Morpheus | The Matrix Reloaded [Open Matte]</span
+          >
+        </a>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="drive">
+        <p class="mb-4 text-base text-green-900">
+          "Can you drive ? A minute ago you were dead!" Mission Impossible 5
+          Full Chase Scene 🌀 4K
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/eqzj2UI9jOQ"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=eqzj2UI9jOQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >"Can you drive ? A minute ago you were dead!" Mission Impossible
+              5 Full Chase Scene 🌀 4K</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=hldKXi5he-Y"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Mission: Impossible: Dead Reckoning Part One - Exclusive 10
+              Minutes (2023) Tom Cruise, Hayley Atwell</span
+            >
+          </a>
+        </h5>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- Mission: Impossible: Dead Reckoning Part One - Exclusive 10 Minutes (2023) Tom Cruise, Hayley Atwell -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="weapon">
+        <p class="mb-4 text-base text-green-900">
+          Mission: Impossible: Dead Reckoning Part One - Exclusive 10 Minutes
+          (2023) Tom Cruise, Hayley Atwell
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/hldKXi5he-Y"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=eqzj2UI9jOQ"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >"Can you drive ? A minute ago you were dead!" Mission Impossible
+              5 Full Chase Scene 🌀 4K</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=hldKXi5he-Y"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Mission: Impossible: Dead Reckoning Part One - Exclusive 10
+              Minutes (2023) Tom Cruise, Hayley Atwell</span
+            >
+          </a>
+        </h5>
+      </div>
+    </div>
+    <!-- Mission: Impossible: Dead Reckoning Part One - Exclusive 10 Minutes (2023) Tom Cruise, Hayley Atwell -->
+
+    <!-- McLaren vs. Cyborg Motorbike Chase | Fast and Furious: Hobbs & Shaw | All Action -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="mclaren">
+        <p class="mb-4 text-base text-green-900">
+          McLaren vs. Cyborg Motorbike Chase | Fast and Furious: Hobbs & Shaw |
+          All Action
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/xEctjZVwnnU"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=xEctjZVwnnU"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >McLaren vs. Cyborg Motorbike Chase | Fast and Furious: Hobbs &
+              Shaw | All Action</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=Y2HKBQMQmbw"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >Audi R8 X Kawasaki Ninja ZX10R X Suzuki GSXR1000 by
+              @nettolucciano</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=mzYnuHizQWo"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >BMW motorcycle doing 308km/h overtaken by a Mclaren in illegal
+              race on N3 freeway</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=bfLqa4vlmFI"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >McLaren P1 vs. Porsche 918 Spyder vs. Ducati 1199 Superleggera -
+              drag race</span
+            >
+          </a>
+        </h5>
+      </div>
+    </div>
+    <!-- McLaren vs. Cyborg Motorbike Chase | Fast and Furious: Hobbs & Shaw | All Action -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <p class="mb-4 text-base text-green-900">
+        MECHANIC: RESURRECTION CLIP COMPILATION (2016) Jason Statham
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/_38RQp4_OIg"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+        <a
+          href="https://www.youtube.com/watch?v=_38RQp4_OIg"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+            >MECHANIC: RESURRECTION CLIP COMPILATION (2016) Jason Statham</span
+          >
+        </a>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+
+    <!-- The Reverse Car Chase (TENET) ● 4K HDR IMAX ● DTS HD 5.1 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <h2 id="reverse">
+        <p class="mb-4 text-base text-green-900">
+          The Reverse Car Chase (TENET) ● 4K HDR IMAX ● DTS HD 5.1
+        </p>
+      </h2>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/EoarG7_pSNw"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=EoarG7_pSNw"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >The Reverse Car Chase (TENET) ● 4K HDR IMAX ● DTS HD 5.1</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war#tenet2"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >TENET Ending scene 4K.</span
+            >
+          </a>
+        </h5>
+      </div>
+    </div>
+    <!-- The Reverse Car Chase (TENET) ● 4K HDR IMAX ● DTS HD 5.1 -->
+
+    <!-- Card title 2 -->
+    <div
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+    >
+      <Movies />
+
+      <h2 id="world"></h2>
+      <p class="mb-4 text-base text-green-900">
+        THE WORLD IS NOT ENOUGH | Opening Scene
+      </p>
+      <div
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+      >
+        <div
+          class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
+          style="padding-top: 56.25%"
+        >
+          <iframe
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/y_iBmG5Y_BU"
+            allowfullscreen=""
+            data-gtm-yt-inspected-2340190_699="true"
+            id="240632615"></iframe>
+        </div>
+      </div>
+      <div class="p-6 top-0 text-center">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >GO BACK</span
+            >
+          </a>
+        </h5>
+
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a
+            href="https://www.youtube.com/watch?v=y_iBmG5Y_BU"
+            rel="noopener"
+            target="_blank"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >THE WORLD IS NOT ENOUGH | Opening Scene</span
+            >
+          </a>
+        </h5>
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+        >
+          <a href="./invisible-war#tenet2"
+            ><span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >TENET Ending scene 4K.</span
+            >
+          </a>
+        </h5>
+      </div>
+    </div>
+    <!-- Card title 2 -->
+  </main>
+</Layout>
+<Footer client:only="react" />

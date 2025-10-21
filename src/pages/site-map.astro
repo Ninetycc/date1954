@@ -1,0 +1,1323 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Abc from "../components/Abc.astro";
+import Dmsolist from "../components/Dmsolist.astro";
+---
+
+<Layout title="Index | Site Map">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-red-900 to-blue-700 h-96 w-full relative rounded-xl"
+    >
+      <a href="./med-bed">
+        <img
+          src="images/Med-Bed001.jpg"
+          class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+        />
+      </a>
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          INDEX
+        </h1>
+
+        <h2 class="text-slate-100 sm:text-xl md:text-3xl mt-5 text-center"></h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <Dmsolist />
+
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto"
+    >
+      <div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+        <div>
+          <a href="./"
+            ><h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
+            >
+              HOME
+            </h1></a
+          >
+          <h1
+            class="text-almost-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+          >
+            INDEX
+          </h1>
+          <div class="py-5 lg:py-[4rem] lg:text-xl">
+            <Abc />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              D
+            </h1>
+            <h3>
+              <a href="./wilcock"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >David Wilcock</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./deceived"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DECEIVED-INTO-CONSENT</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./glidden"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Diabetes</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./turner"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Don't Mention the Reptilians</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./dmso"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >dmso</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./dmso#cancer"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >dmso and cancer</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./drberg"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Dr. Eric Berg DC
+                </span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./buttar"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DR. RASHID A. BUTTAR</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./glidden"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DR. Peter Glidden</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./thyme"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Dr. Mandell(Thyme)</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./cancer#lee"
+                ><span
+                  class="text-blue-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Dr. Lee Merritt ‘Breaking Down Babylonian Word Magic’ June
+                  19, 2023</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./autism#suramin"
+                ><span
+                  class="text-blue-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DR JUDY MIKOVITZ VX ANTIDOTE "SURAMIN"</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./autism#interview"
+                ><span
+                  class="text-blue-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >PLANDEMIC | Exclusive Interview With Dr.Judy Mikovits |
+                  BANNED on all Social Media</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./morton"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DR. SEAN DAVID MORTON INTERVIEW</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./vatican"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DRACONIAN REPTILIAN SHOWN BY THE VATICAN</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="DEMON-MEDICINE.html"
+                ><span class="text-gray-200">DEMON-MEDICINE</span>
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./glidden"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Diabetes</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Diatomaceous.html"
+                ><span class="text-gray-200">Diatomaceous Earth</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./bluewater#dunn"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Kent Dunn talks about LOOSH @7:10</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./dmso"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >dmso</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Dr_Peter_Glidden.html"
+                ><span class="text-gray-200">Dr. Peter Glidden</span>
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="Dr_LEE_MERRITT.html"
+                ><span class="text-gray-200">Dr. LEE MERRITT</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Dr_Tenpenny.html"
+                ><span class="text-gray-200">Dr.Sherri Tenpenny</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Dr_Coleman.html"
+                ><span class="text-gray-200">Dr.Vernon Coleman</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Hydroxychloroquine.html"
+                ><span class="text-gray-200">Dr. Stella Immanuel</span>
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              E
+            </h1>
+            <h3>
+              <a href="./eceti"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >eceti</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="electricity.html"
+                ><span class="text-gray-200">Electricity</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./turner#ellis"
+                ><span
+                  class="text-pink-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Ellis C Taylor - 3rd discussion with Peter Maxwell Slattery</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./enya"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Enya - Aniron (Extended) HD</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              F
+            </h1>
+            <h3>
+              <a href="./thyme"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Fatty liver</span
+                ></a
+              >
+            </h3>
+            <br />
+
+            <h3>
+              <a
+                href="https://food-app-beryl.vercel.app/"
+                rel="noopener"
+                target="_blank"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Food App</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="/flat-earth"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Flat Earth</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="/flat-earth#satellite"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Flat Earth (Telstra Satellite Services)</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./freemasonry"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Freemasonry</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./fritz#johan"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >JOHAN FRITZ</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              G
+            </h1>
+            <h3>
+              <a href="./gibson"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >MEL GIBSON GIVES HIS FINAL WARNING TO HOLLYWOOD! EXPOSES THE
+                  "ANTICHRIST" ENCOUNTORING.. WATCH THIS!</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./global"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Global Marshall Law - How Earth came under control of the
+                  Draco 16,500 years ago..</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="gods"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >GODS</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./goesdeep"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >GOES DEEP</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./gopro"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >GoPro</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./alienwars#greta"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >GRETA THUNBERG</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./braden"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Gregg Braden</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              H
+            </h1>
+            <h3>
+              <a href="Hakann.html"><span class="text-gray-200">Hakann</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./halloween"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >HALLOWEEN</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="/highline-record"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >HIGHLINE RECORD</span
+                ></a
+              >
+            </h3>
+            <br />
+
+            <h3>
+              <a href="/hydrogen-peroxide"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >HYDROGEN-PEROXIDE</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Hydroxychloroquine.html"
+                ><span class="text-gray-200">Hydroxychloroquine</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./hyphen-glitch"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >HYPHEN-GLITCH</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              I
+            </h1>
+            <h3>
+              <a href="./alexovechkin"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Ice Hockey</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./carpenter"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Robert Plant | 'If I Were A Carpenter' | Official Music Video
+                  [HD Upgrade]</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./site-map"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Index</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./news#intel"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >INTEL</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./invisible-war"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >The Invisible War</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./superloop"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >ISP (superloop)</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./ivermectin"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Ivermectin</span
+                >
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              J
+            </h1>
+            <h3>
+              <a href="./jackson"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Jackson Hole Mountain Resort</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./supersoldiertalk"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >James Rink</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./fritz#johan"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >JOHAN FRITZ</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./jordanmaxwell"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Jordan Maxwell</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="/justinian-deception"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Justinian Deception</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              K
+            </h1>
+
+            <h3>
+              <a href="./goesdeep#kelley1"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Steven Kelley 1</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./goesdeep#kelley2"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Steven Kelley 2</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              L
+            </h1>
+            <h3>
+              <a href="./mower"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Lawn Mower</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./liabilitymate"
+                ><span
+                  class="text-pink-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >liabilitymate</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./thyme#turmeric"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Fatty liver</span
+                ></a
+              >
+            </h3>
+            <br />
+
+            <h3>
+              <a href="Liver_Cleanse.html"
+                ><span class="text-gray-200">Liver Cleanse</span>
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              M
+            </h1>
+            <h3>
+              <a href="Magnesium.html"
+                ><span class="text-gray-200">Magnesium</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="MASKS.html"><span class="text-gray-200">MASKS</span></a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./matrix"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >The Matrix Reloaded</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./mcallister"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >McAllister TV</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./med-bed"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Med-Bed</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./monsters"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Monsters INC. The Adrenochrome Fear Factory Exposed!</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./montauk"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >The Montauk Project: The Truth is Darker Than You Can
+                  Possibly Imagine</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./morton"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >DR. SEAN DAVID MORTON INTERVIEW</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="mroxygen.html"
+                ><span class="text-gray-200">Mr.Oxygen</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./bioweapon#mutant"
+                ><span
+                  class="text-blue-500 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Mutant children of the vaxxed - Standing in 2 days, walking
+                  in 2 weeks. Altered Gnomes</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              N
+            </h1>
+            <h3>
+              <a href="./news"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >news</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Magnesium.html"
+                ><span class="text-gray-200">Niacin</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a
+                href="https://food-app-beryl.vercel.app/"
+                rel="noopener"
+                target="_blank"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Ninety.cc</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./no-virus"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >NO VIRUS</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./nuremberg"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Nuremberg 2.0</span
+                >
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              O
+            </h1>
+            <h3>
+              <a href="./alexovechkin"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Alexander Ovechkin</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="ORION.html"><span class="text-gray-200">Orion</span></a>
+            </h3><br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              P
+            </h1>
+            <h3>
+              <a href="./pharmakeia"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Pharmakeia Deception</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./goesdeep"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >PHIL SCHNEIDER</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./pleiadians"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Pleiadians</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./bible"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Pleiadians in the Bible</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./billwood"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >PROJECT LOOKING GLASS</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              Q
+            </h1>
+            <h3>
+              <a href="Q-GET-READY-ANONS.html"
+                ><span class="text-gray-200">Q GET READY ANONS</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./vatican#mugzzi"
+                ><span
+                  class="text-purple-500 cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Quantum Shift: Reptilian attachments, Dr. Sam Mugzzi and
+                  Digital Tom</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              R
+            </h1>
+            <h3>
+              <a href="./supersoldiertalk#jahbulon"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Rainetta Jones and Panel Guest – The Spider Queen Invasion</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./red-centre"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >The Red Centre</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./riddick"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Riddick beats them all - FIGHT SCENE | The Chronicles of
+                  Riddick | CLIP</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./supersoldiertalk"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >James Rink</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="EEVblog2.html"
+                ><span class="text-gray-200">Rouse Hill</span></a
+              >
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              S
+            </h1>
+            <h3>
+              <a href="/flat-earth#satellite"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Telstra Satellite Services</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./skirun"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >The Most Insane Ski Run Ever Imagined</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./silver"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >RED ALERT! The Silver Notch has Honeywell Tech to Secure the
+                  Future of Money in the USA! (Bix Weir)</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./jackson"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Jackson Hole Mountain Resort</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Small_Engine.html"
+                ><span class="text-gray-200">Small Engine</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="SG_Anon.html"
+                ><span class="text-gray-200">SG Anon</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="solutions.html"
+                ><span class="text-gray-200">Solutions</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./thyme"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Sinus</span
+                ></a
+              >
+            </h3>
+            <br />
+
+            <h3>
+              <a href="/site-map"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Site-Map</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="/stargate"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >STARGATE</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./storyblok"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >storyblok</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="./fritz"
+                ><span
+                  class="text-green-900 font-bold cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Secret Space Program SSP - Bavarian Illuminati</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./supersoldiertalk"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Super Soldier Talk</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              T
+            </h1>
+            <h3>
+              <a href="./tailwindcss"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >This CSS Property will change the web</span
+                ></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./invisible-war#tenet2"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >TENET Ending scene 4K.</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./turner#ellis"
+                ><span
+                  class="text-pink-700 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Ellis C Taylor - 3rd discussion with Peter Maxwell Slattery</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="They-Live.html"
+                ><span class="text-gray-200">They Live</span></a
+              >
+            </h3>
+            <br />
+            <h3>
+              <a href="./invisible-war"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >The Invisible War</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="/tom-cruise"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >We Interviewed Deepfake Tom Cruise</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./tompkins"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >William Tompkins</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./tradingview"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >Tradingview</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Turmeric_Ginger.html"
+                ><span class="text-gray-200">Turmeric & Ginger</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./turner"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Chris Turner</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./turner#turner"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >Chris Turner talks about Richard Bruce</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              U
+            </h1>
+            <h3>
+              <a href="./unidroit"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >WHAT-IS-A-UNIDROIT</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              V
+            </h1>
+            <h3>
+              <a href="Vaccine-Shedding.html"
+                ><span class="text-gray-200">Vaccine-Shedding</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./autism#vaxxed"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase"
+                  >VAXXED (FULL MOVIE)</span
+                >
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              W
+            </h1>
+            <h3>
+              <a href="./wilcock"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >David Wilcock</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./willie"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >JIM WILLIE</span
+                >
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="./world8k"
+                ><span
+                  class="text-black cursor-pointer hover:text-white hover:bg-lime-900"
+                  >THE BEAUTY OF THE WORLD in 8K ULTRA HD</span
+                >
+              </a>
+            </h3>
+            <br />
+
+            <h3>
+              <a href="wild-west.html"
+                ><span class="text-gray-200">Wild Wild West</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="WILLIAM_TOMPKINS.html"
+                ><span class="text-gray-200">WILLIAM TOMPKINS</span>
+              </a>
+            </h3>
+            <br />
+            <h3>
+              <a href="Winter-Sports.html"
+                ><span class="text-gray-200">Winter-Sports</span>
+              </a>
+            </h3>
+            <h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+            >
+              Z
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="order-first lg:order-last">
+        <a href="./med-bed">
+          <img
+            class="lg:hidden mb-9"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+          <img
+            class="hidden lg:block rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- images/Med-Bed001.jpg -->
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto"
+    >
+      <div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+        <div>
+          <h1
+            class="text-almost-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold"
+          >
+            HOME
+          </h1>
+          <a href="/site-map"
+            ><h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
+            >
+              INDEX
+            </h1></a
+          >
+        </div>
+      </div>
+      <div
+        class="order-first lg:order-last rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110"
+      >
+        <a href="./med-bed">
+          <img
+            class="lg:hidden mb-9"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+          <img
+            class="hidden lg:block rounded-xl"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- images/Med-Bed001.jpg -->
+  </main>
+
+  <Footer client:only="react" />
+</Layout>

@@ -1,0 +1,76 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+---
+
+<Layout title="PAGE NOT FOUND.">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-red-900 to-blue-700 h-96 w-full relative rounded-xl"
+    >
+      <a href="./">
+        <img
+          src="images/Med-Bed001.jpg"
+          class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+        />
+      </a>
+      <div class="p-24">
+        <h1
+          class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
+        >
+          404
+        </h1>
+
+        <h2 class="text-slate-100 sm:text-xl md:text-3xl mt-5 text-center">
+          PAGE NOT FOUND
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto"
+    >
+      <div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+        <div>
+          <a href="./"
+            ><h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
+            >
+              HOME
+            </h1></a
+          >
+          <a href="/site-map"
+            ><h1
+              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
+            >
+              INDEX
+            </h1></a
+          >
+
+          <div class="py-5 lg:py-[4rem] lg:text-xl"></div>
+        </div>
+      </div>
+      <div class="order-first lg:order-last">
+        <a href="./med-bed">
+          <img
+            class="lg:hidden mb-9"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+          <img
+            class="hidden lg:block"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <Footer client:only="react" />
+</Layout>
