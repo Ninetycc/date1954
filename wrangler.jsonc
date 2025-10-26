@@ -1,7 +1,8 @@
   {
     "name": "date1954",
     "compatibility_date": "2025-10-21",
+    "preview_urls": true,
     "assets": {
-      "directory": "./dist"
+    "directory": "./dist"
     }
   }
