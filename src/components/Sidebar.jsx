@@ -25,7 +25,7 @@ const Sidebar = ({ open = false, setOpen }) => {
             >
               <img
                 className="absolute top-5 right-5"
-                src="images/icon-close-menu.svg"
+                src="/images/icon-close-menu.svg"
                 alt="Close Menu"
               />
             </button>

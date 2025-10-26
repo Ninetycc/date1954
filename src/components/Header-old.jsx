@@ -9,7 +9,7 @@ const Header = () => {
     <header className="container">
       <div className="flex py-5 px-3">
         <div className="flex items-center pt-3">
-          <img src="images/logo.svg" alt="Snap Logo" />
+          <img src="/images/logo.svg" alt="Snap Logo" />
         </div>
         <div className="flex-grow flex items-center z-20">
           <NavMenu />
@@ -23,7 +23,7 @@ const Header = () => {
           >
             <img
               className="block lg:hidden"
-              src="images/icon-menu.svg"
+              src="/images/icon-menu.svg"
               alt="Menu"
             />
           </button>

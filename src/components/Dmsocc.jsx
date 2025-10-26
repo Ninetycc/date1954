@@ -15,12 +15,12 @@ const Header = () => {
             </span>
           </a>
         </div>
-        <div className="flex-grow flex items-center z-20">
+        <div className="grow flex items-center z-20">
           <NavMenu />
         </div>
 
         <div className="flex items-center text-xl">
-          <a href="./site-map">
+          <a href="/site-map">
             <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               INDEX
             </span>
