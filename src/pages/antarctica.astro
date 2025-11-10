@@ -7,6 +7,7 @@ import Fun from "../components/Fun.astro";
 import Bluelist from "../components/Bluelist.astro";
 import Flat from "../components/Flat.astro";
 import Dome from "../components/Dome.astro";
+import AntarcticaSec from "../components/AntarcticaSec.astro";
 ---
 
 <Layout title="Antarctica Cruise">
@@ -14,7 +15,7 @@ import Dome from "../components/Dome.astro";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tl from-sky-500 to-sky-700 h-96 w-full relative rounded-xl"
+      class="bg-linear-to-tl from-sky-500 to-sky-700 h-96 w-full relative rounded-xl"
     >
       <img
         src="/images/Med-Bed001.jpg"
@@ -327,6 +328,7 @@ import Dome from "../components/Dome.astro";
         </div>
       </div>
       <div class="p-6 top-0 text-center">
+        <AntarcticaSec />
         <h5
           class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
         >
