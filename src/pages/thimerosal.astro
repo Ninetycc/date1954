@@ -7,6 +7,18 @@ import Suramin from "../components/Suramin.astro";
 import Lista from "../components/Lista.astro";
 import Dmsolist from "../components/Dmsolist.astro";
 import THIMEROSALM from "../components/THIMEROSALM.astro";
+// src/components/VideoPlayer.astro
+const videoId1 = "0c0a22db-bf28-41f3-8232-dd5b9d6e1c63"; // https://www.brighteon.com/0c0a22db-bf28-41f3-8232-dd5b9d6e1c63
+const textId1 = "Hard evidence that all vaccines are poison. Every single one! The Real Dr Judy"; // The Real Dr Judy
+const videoId2 = "J0a2Prc_MQo"; // ULTIMATE HEADPHONE TEST !!! (Wear Headphone)
+const videoId3 = "tf7yPrPKWTs0"; // bitchute Bix Weir - The Good Guys Are In Control
+const videoId4 = "vRrvRtnlqvM"; // Best 8D song EVER experience with headphones 🎧 2021 Eric Levy
+const videoId5 = "WNeLUngb-Xg"; // Linkin Park - In The End (Mellen Gi & Tommee Profitt Remix) TrapMusicHDTV 
+const videoId6 = "Nt27aBceerI"; // Rock Classics ⚡ [ LIVE ] Timeless Rock Hits of the 70s, 80s, and 90s | Best of Rock Music Anthems
+const videoId7 = "4_O-y3SM3UM"; //  Aerosmith, Bon Jovi, AC/DC, Metallica, Nirvana, Queen 🔥 Classic Rock Songs 70s 80s 90s Full Album Classic Rock Hits
+const yout = "www.youtube.com"; // Replace with your YouTube Video ID
+const bitc = "old.bitchute.com"; // https://old.bitchute.com/video/tf7yPrPKWTs0/
+const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-ed99-488e-ae53-ad9ab8012096
 ---
 
 <Layout title="MERCURY / THIMEROSAL">
@@ -40,7 +52,7 @@ import THIMEROSALM from "../components/THIMEROSALM.astro";
       <h2 id="mercury">
   
         <p class="mb-4 text-base text-left font-bold text-black">MERCURY / THIMEROSAL IS IN ALL VACCINES!!!</p>
-        <p class="mb-4 text-base text-left font-bold text-black">Hard evidence that all vaccines are poison. Every single one!</p>
+        <p class="mb-4 text-base text-left font-bold text-black">{`${textId1}`}</p>
       </h2>
       <div
         class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
@@ -49,14 +61,16 @@ import THIMEROSALM from "../components/THIMEROSALM.astro";
       >
         <div
           class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
-          style="padding-top: 56.25%"
+          style="padding-top: 0.25%"
         >
-          <iframe
-            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
-            src="https://rumble.com/embed/v6whkvc/?pub=166b2j"
-            allowfullscreen=""
-            data-gtm-yt-inspected-2340190_699="true"
-            id="240632615"></iframe>
+ 
+    <iframe 
+    class="w-full aspect-video rounded-2xl shadow-xl border border-white/10" 
+    src={`https://${bright}/embed/${videoId1}`} 
+    title="YouTube Video Player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
         </div>
       </div>
       <div class="p-6 top-0 text-center">
