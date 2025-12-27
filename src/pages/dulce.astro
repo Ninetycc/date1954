@@ -10,6 +10,12 @@ import Patriotchute from "../components/Patriotchute.astro";
 import DULCEL from "../components/DULCEL.astro";
 import Phil from "../components/Phil.astro";
 import Exopolitics from "../components/Exopolitics.astro";
+// src/components/VideoPlayer.astro
+const videoId1 = "dQw4w9WgXcQ"; // Replace with your YouTube Video ID
+const yout = "www.youtube.com"; // Replace with your YouTube Video ID
+const bitc = "old.bitchute.com"; // https://old.bitchute.com/video/tf7yPrPKWTs0/
+const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-ed99-488e-ae53-ad9ab8012096
+const odysee001 = "https://odysee.com/%24/embed/%40ForEverFree%3A3%2FPhil-Schneider-%E2%80%93-The-Alien-Agenda%2C-The-Grenada-Treaty---The-End-Game%3A6?r=338Hxwp3ojZptb4BLPToH5TZRee9S6gd"; // Phil Schneider – The Alien Agenda, The Grenada Treaty & The End Game
 ---
 
 <Layout title="DULCE">
@@ -88,14 +94,15 @@ import Exopolitics from "../components/Exopolitics.astro";
       >
         <div
           class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
-          style="padding-top: 56.25%"
+          style="padding-top: 0.25%"
         >
-          <iframe
-            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
-            src="https://rumble.com/embed/v5xncp2/?pub=4"
-            allowfullscreen=""
-            data-gtm-yt-inspected-2340190_699="true"
-            id="240632615"></iframe>
+  <iframe 
+    class="w-full aspect-video rounded-2xl shadow-xl border border-white/10" 
+    src={`${odysee001}`} 
+    title="YouTube Video Player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
         </div>
       </div>
       <div class="p-6 top-0 text-center">
