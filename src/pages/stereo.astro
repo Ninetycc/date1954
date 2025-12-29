@@ -8,6 +8,7 @@ import Lista from "../components/Lista.astro";
 import LEAudio from "../components/LEAudio.astro";
 // src/components/VideoPlayer.astro
 const videoId1 = "0ZXgdva6f9c"; // Left/Right Stereo Sound Test for Sound Systems
+const textId1 = "Left/Right Stereo Sound Test for Sound Systems"; // Left/Right Stereo Sound Test for Sound Systems
 const videoId2 = "J0a2Prc_MQo"; // ULTIMATE HEADPHONE TEST !!! (Wear Headphone)
 const videoId3 = "tf7yPrPKWTs0"; // bitchute Bix Weir - The Good Guys Are In Control
 const videoId4 = "vRrvRtnlqvM"; // Best 8D song EVER experience with headphones 🎧 2021 Eric Levy
@@ -35,7 +36,7 @@ const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-
         <h1
           class="text-white text-xl lg:text-[4rem] lg:leading-16 font-bold text-center text-transform: uppercase"
         >Stereo Sound</h1>
-        <h2 class="text-slate-100 text-xl mt-5 text-center">Left/Right Stereo Sound Test for Sound Systems</h2>
+        <h2 class="text-slate-100 text-xl mt-5 text-center">{`${textId1}`}</h2>
       </div>
     </div>
     <!-- Jumbotron -->
@@ -47,8 +48,7 @@ const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-
     >
       <Lista />
       <h2 id="test">
-        <p class="mb-4 text-base text-left font-bold text-black">Left/Right Stereo Sound Test for Sound Systems StereoAndSurroundSound-Channel</p>
- 
+        <p class="mb-4 text-base text-left font-bold text-black">{`${textId1}`}</p>
       </h2>
       <div
         class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
