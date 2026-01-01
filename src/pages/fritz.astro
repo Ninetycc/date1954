@@ -8,6 +8,13 @@ import Bluelist from "../components/Bluelist.astro";
 import Alienvaxx from "../components/Alienvaxx.astro";
 import Cosmic from "../components/Cosmic.astro";
 import Johan from "../components/Johan.astro";
+// src/components/VideoPlayer.astro
+const videoId1 = "LLbVGEtffrlZ"; // Super Soldier Talk – Johan Fritz SSP in Person Interview Annimatrix
+const videoId2 = "dGtrwxyxflI"; // ABC Bullion - Studio 10 gets up close and personal with ABC Bullion
+const videoId3 = "tf7yPrPKWTs0"; // bitchute Bix Weir - The Good Guys Are In Control
+const yout = "www.youtube.com"; // Replace with your YouTube Video ID
+const bitc = "old.bitchute.com"; // https://old.bitchute.com/video/LLbVGEtffrlZ/
+const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-ed99-488e-ae53-ad9ab8012096
 ---
 
 <Layout title="Johan Fritz.">
@@ -248,14 +255,17 @@ import Johan from "../components/Johan.astro";
       >
         <div
           class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
-          style="padding-top: 56.25%"
+          style="padding-top: 0.25%"
         >
-          <iframe
-            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
-            src="https://rumble.com/embed/vi4uwc/?pub=166b2j"
-            allowfullscreen=""
-            data-gtm-yt-inspected-2340190_699="true"
-            id="240632615"></iframe>
+
+          <iframe 
+    class="w-full aspect-video rounded-2xl shadow-xl border border-white/10" 
+    src={`https://${bitc}/embed/${videoId1}`} 
+    title="YouTube Video Player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+  ></iframe>
+
         </div>
       </div>
       <div class="p-6 top-0 text-center">
