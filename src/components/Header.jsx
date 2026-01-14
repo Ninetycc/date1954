@@ -13,7 +13,7 @@ const Header = () => {
             <span className="font-poppins cursor-pointer hover:text-white hover:bg-black">1954.date</span>
           </a>
         </div>
-        <div className="flex-grow flex items-center z-20">
+        <div className="grow flex items-center z-20">
           <NavMenu />
         </div>
 
