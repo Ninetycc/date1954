@@ -32,15 +32,15 @@ const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-linear-to-tl from-blue-900 to-sky-400 h-96 w-full relative rounded-xl"
+      class="w-screen  bg-linear-to-tl from-blue-900 to-sky-400 h-96 relative rounded-xl"
     >
       <img
         src="/images/Med-Bed001.jpg"
-        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+        class="w-screen  h-full object-cover absolute mix-blend-overlay rounded-xl"
       />
       <div class="p-24">
         <h1
-          class="text-white text-xl lg:text-[4rem] lg:leading-16 font-bold text-center text-transform: uppercase"
+          class="text-white text-xl text-[4rem] leading-16 font-bold text-center text-transform: uppercase"
         >Autism Is Treatable!</h1>
         <h2 class="text-slate-100 text-xl mt-5 text-center">{`${textId1}`}</h2>
       </div>
@@ -50,7 +50,7 @@ const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-
 
         <!-- Mike Adams: Kerri Rivera interviewed about chlorine dioxide vs. autism, 2020 -->
     <div
-      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
+      class="w-screen sm:w-full block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 border-t rounded-b rounded-r p-4 justify-between leading-normal"
     >
       <Lista />
       <h2 id="odysee">
@@ -67,7 +67,7 @@ const bright = "www.brighteon.com"; // https://www.brighteon.com/embed/80a26c9d-
         >
  
 <iframe 
-class="w-full aspect-video rounded-2xl shadow-xl border border-white/10" 
+class="w-screen  aspect-video rounded-2xl shadow-xl border border-white/10" 
 id="odysee-iframe" 
 src="https://odysee.com/%24/embed/%40Kerri-Rivera-Autism-Chlorine-Dioxide%3A7%2FMike-Adams-Kerri-Rivera-interviewed-about-chlorine-dioxide-vs.-autism%3Aa?r=338Hxwp3ojZptb4BLPToH5TZRee9S6gd" 
 allowfullscreen></iframe>
@@ -103,7 +103,7 @@ allowfullscreen></iframe>
         >
    
     <iframe 
-    class="w-full aspect-video rounded-2xl shadow-xl border border-white/10" 
+    class="w-full md:w-fit sm:w-fit aspect-video rounded-2xl shadow-xl " 
     src={`${videoId2}`} 
     title="YouTube Video Player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

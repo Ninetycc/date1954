@@ -7,19 +7,19 @@ const Header = () => {
 
   return (
     <header className="container">
-      <div className="flex py-5 px-3">
-        <div className="flex items-center pt-3 text-2xl">
+      <div className="w-screen  flex">
+        <div className="flex  text-2xl">
           <a href="./">
             <span className="font-poppins cursor-pointer hover:text-white hover:bg-black">1954.date</span>
           </a>
         </div>
-        <div className="grow flex items-center z-20">
+        <div className="grow flex ">
           <NavMenu />
         </div>
 
         <div className="flex items-center text-xl">
           <a href="./site-map">
-            <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
+            <span className="body-font flex font-poppins  w-full md:w-fit sm:w-fit text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               INDEX
             </span>
           </a>
@@ -30,7 +30,7 @@ const Header = () => {
             aria-controls="sidebar"
             aria-label="Open Menu"
           >
-            <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
+            <span className="body-font flex font-poppins w-full md:w-fit sm:w-fit  text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               MENU
             </span>
           </button>

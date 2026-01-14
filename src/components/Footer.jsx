@@ -7,17 +7,17 @@ const Footer = () => {
 
   return (
     <footer className="container">
-      <div className="flex py-5 px-3">
+      <div className="w-screen sm:w-full flex py-5 px-3">
         <div className="flex items-center pt-3 text-2xl">
           <a href="./">
             <span className="font-paint cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">1954.date</span>
           </a>
         </div>
-        <div className="flex-grow flex items-center z-20">
+        <div className="grow sm:w-full flex items-center z-20">
           <NavMenu />
         </div>
 
-        <div className="flex items-center text-xl">
+        <div className="flex  sm:w-full items-center text-xl">
           <a href="./site-map">
             <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               INDEX

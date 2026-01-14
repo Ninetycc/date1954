@@ -3,7 +3,7 @@ import { Menu, Transition } from "@headlessui/react";
 const NavMenu = () => {
   return (
     <nav>
-      <ul className="lg:flex lg:space-x-7 lg:ml-14">
+      <ul className="flex  w-full md:w-fit sm:w-fit ">
         <li className="cursor-pointer text-almost-black"></li>
       </ul>
     </nav>

@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className="container">
-      <div className="flex py-5 px-3">
+      <div className="w-screen sm:w-full flex py-5 px-3">
         <div className="flex items-center pt-3 text-2xl">
           <a href="https://dmso.cc/">
             <span className="font-poppins font-semibold cursor-pointer hover:text-white hover:bg-yellow-700">
@@ -15,7 +15,7 @@ const Footer = () => {
             </span>
           </a>
         </div>
-        <div className="flex-grow flex items-center z-20">
+        <div className="grow flex items-center z-20">
           <NavMenu />
         </div>
 
