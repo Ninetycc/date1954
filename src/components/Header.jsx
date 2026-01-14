@@ -30,7 +30,7 @@ const Header = () => {
             aria-controls="sidebar"
             aria-label="Open Menu"
           >
-            <span className="body-font flex font-poppins w-full md:w-fit sm:w-fit  text-xl cursor-pointer hover:text-white hover:bg-lime-900">
+            <span className="body-font flex font-poppins  text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               MENU
             </span>
           </button>
