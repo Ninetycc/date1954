@@ -21,6 +21,6 @@
   },
   "devDependencies": {
     "baseline-browser-mapping": "^2.9.15",
-    "wrangler": "^4.60.0"
+    "wrangler": "^4.61.0"
   }
 }
